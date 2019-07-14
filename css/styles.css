@@ -15,10 +15,12 @@ p{
   padding-top:50px;
 }
 body{
-background-color:#6ACD89;
+  background-color:#6ACD89;
 }
 .gender1{
-font-size:1.2em;
+  font-size:1.2em;
 }
-
+.gender2{
+   font-size:1.2em;
+}
 
