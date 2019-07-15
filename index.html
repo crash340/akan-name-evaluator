@@ -5,26 +5,29 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="javascript/scripts.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
   <div class="container">
     <div class="jumbotron bg-info">
-      <h1>Akan name calculator</h1>
+      <h1>Akan name generator</h1>
     </div>
     <p>This application can transform your date 0f birth into a unique akan name</p>
     <p>This akan name is only available to the ghahanian people at the southern part until now</p>
     <p>Fill in your details</p>
     <form>
       <h2>Enter age your birthday in the text box</h2>
-      <input type="date" name="birthday" required>
-        <br>male<br>
-        <button id = "bu1"></button>
-        <br>female:<br>
-        <button id ="bu2"></button>
-        <input type="button" onclick="hi()">
-  </form>
+      <input id="Bday" type="date" name="birthday" required>
+      <h2>Select your gender</h2>
+      <div class= "m1">
+      <input id="bu1" type="submit" name="button1" value="male" onclick="male()">
+    </div>
+      <div class= m1>
+      <input type="submit" id="bu2" value="female" name="button2" onclick="female()">
+    </div>
+    </form>
   </div>
 </body>
+
 </html>
