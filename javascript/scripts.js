@@ -6,12 +6,9 @@ function male(){
   var century=year.slice(1,3);
   var year2 =year.slice(1,4);
   var month =y.slice(5,7);
-  
   var day = y.slice(8,11);
   var new_day = (((parseInt(century)/4)-2*parseInt(century)-1) + ((5*parseInt(year2)/4) ) + ((26*(parseInt(month)+1)/10))+parseInt(day))
-  alert(typeof new_day);
   var day2 = parseInt((new_day%7).toFixed());
-
   if (day2 === 0){
     alert("you were born on a sunday therefore your akan n ame is Kwasi")
   }
@@ -45,10 +42,8 @@ function female(){
   var century=year.slice(1,3);
   var year2 =year.slice(1,4);
   var month =y.slice(5,7);
-  alert("This is the month"+ month);
   var day = y.slice(8,11);
   var new_day = (((parseInt(century)/4)-2*parseInt(century)-1) + ((5*parseInt(year2)/4) ) + ((26*(parseInt(month)+1)/10))+parseInt(day))
-  alert(typeof new_day);
   var day2 = parseInt((new_day%7).toFixed());
 
   if (day2 === 0){
