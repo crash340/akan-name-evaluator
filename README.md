@@ -10,9 +10,11 @@ This shows you a beaufiful interface in which it is easy to turn your name in to
 * paste in this url ""
 * and voila ,Welcome to my project
 make sure you only press one button when selecting the gender 
+##Bugs
+When you press enter the first time it shows you the date-of-birth however if you pressed twice the it shows you your destined akan name.
 ## Technologies Used
 I used html and css and javascript to construct the whole project
 ## Support and contact details
 My Email is kidnoodle12@gmail.com if you run in to any issues
 ## License
-i used the mit licence which is open source 
+I used the mit licence which is open source 
