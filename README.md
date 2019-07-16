@@ -7,7 +7,7 @@ Akan name generator
 ## Description
 This shows you a beaufiful interface in which it is easy to turn your name in to a akan name it also has a calm colour green which is easier on the eyes * This is a great place
 * go to google chrome
-* paste in this url ""
+* paste in this url "https://crash340.github.io/akan-name-avaluator"
 * and voila ,Welcome to my project
 make sure you only press one button when selecting the gender 
 ##Bugs
